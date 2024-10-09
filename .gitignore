@@ -1,4 +1,6 @@
 a.out
 a.out.dSYM
+transpose.o.dSYM
+transpose_scalar.o.dSYM
 *.s
 *.o
