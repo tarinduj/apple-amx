@@ -17,6 +17,7 @@
 #define AMX_STZI(gpr)   AMX_OP_GPR( 7, gpr)
 #define AMX_EXTRX(gpr)  AMX_OP_GPR( 8, gpr)
 #define AMX_EXTRY(gpr)  AMX_OP_GPR( 9, gpr)
+#define AMX_EXTRV(gpr)  AMX_OP_GPR( 9, gpr)
 #define AMX_FMA64(gpr)  AMX_OP_GPR(10, gpr)
 #define AMX_FMS64(gpr)  AMX_OP_GPR(11, gpr)
 #define AMX_FMA32(gpr)  AMX_OP_GPR(12, gpr)

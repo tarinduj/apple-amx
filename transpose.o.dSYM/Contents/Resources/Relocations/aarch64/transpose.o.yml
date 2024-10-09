@@ -1,0 +1,55 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     transpose.o
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _print_amx_state, symObjAddr: 0x0, symBinAddr: 0x100003AE4, symSize: 0x4A4 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _AMX_VER, symBinAddr: 0x100010000, symSize: 0x0 }
+  - { offsetInCU: 0xCA, offset: 0xCA, size: 0x8, addend: 0x0, symName: _print_amx_state, symObjAddr: 0x0, symBinAddr: 0x100003AE4, symSize: 0x4A4 }
+  - { offsetInCU: 0x195, offset: 0x195, size: 0x8, addend: 0x0, symName: _print_matrix, symObjAddr: 0x4A4, symBinAddr: 0x100003F88, symSize: 0xB0 }
+  - { offsetInCU: 0x4DF, offset: 0x4DF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x554, symBinAddr: 0x100004038, symSize: 0x90C }
+  - { offsetInCU: 0x26, offset: 0x6BF, size: 0x8, addend: 0x0, symName: _emulate_AMX_LDX, symObjAddr: 0x0, symBinAddr: 0x100004944, symSize: 0x8 }
+  - { offsetInCU: 0x6B, offset: 0x704, size: 0x8, addend: 0x0, symName: _emulate_AMX_LDX, symObjAddr: 0x0, symBinAddr: 0x100004944, symSize: 0x8 }
+  - { offsetInCU: 0xBC, offset: 0x755, size: 0x8, addend: 0x0, symName: _ld_common, symObjAddr: 0x8, symBinAddr: 0x10000494C, symSize: 0xD0 }
+  - { offsetInCU: 0x10E, offset: 0x7A7, size: 0x8, addend: 0x0, symName: _emulate_AMX_LDY, symObjAddr: 0xD8, symBinAddr: 0x100004A1C, symSize: 0xC }
+  - { offsetInCU: 0x318, offset: 0x9B1, size: 0x8, addend: 0x0, symName: _emulate_AMX_LDZ, symObjAddr: 0xE4, symBinAddr: 0x100004A28, symSize: 0x48 }
+  - { offsetInCU: 0x399, offset: 0xA32, size: 0x8, addend: 0x0, symName: _emulate_AMX_LDZI, symObjAddr: 0x12C, symBinAddr: 0x100004A70, symSize: 0xFC }
+  - { offsetInCU: 0x45D, offset: 0xAF6, size: 0x8, addend: 0x0, symName: _emulate_AMX_STX, symObjAddr: 0x228, symBinAddr: 0x100004B6C, symSize: 0x44 }
+  - { offsetInCU: 0x490, offset: 0xB29, size: 0x8, addend: 0x0, symName: _emulate_AMX_STX, symObjAddr: 0x228, symBinAddr: 0x100004B6C, symSize: 0x44 }
+  - { offsetInCU: 0x4C8, offset: 0xB61, size: 0x8, addend: 0x0, symName: _emulate_AMX_STY, symObjAddr: 0x26C, symBinAddr: 0x100004BB0, symSize: 0x48 }
+  - { offsetInCU: 0x535, offset: 0xBCE, size: 0x8, addend: 0x0, symName: _emulate_AMX_STZ, symObjAddr: 0x2B4, symBinAddr: 0x100004BF8, symSize: 0x48 }
+  - { offsetInCU: 0x5A2, offset: 0xC3B, size: 0x8, addend: 0x0, symName: _emulate_AMX_STZI, symObjAddr: 0x2FC, symBinAddr: 0x100004C40, symSize: 0xFC }
+  - { offsetInCU: 0x26, offset: 0xD33, size: 0x8, addend: 0x0, symName: _emulate_AMX_EXTRX, symObjAddr: 0x0, symBinAddr: 0x100004D3C, symSize: 0x5B8 }
+  - { offsetInCU: 0x1E1, offset: 0xEEE, size: 0x8, addend: 0x0, symName: _emulate_AMX_EXTRX, symObjAddr: 0x0, symBinAddr: 0x100004D3C, symSize: 0x5B8 }
+  - { offsetInCU: 0x43C, offset: 0x1149, size: 0x8, addend: 0x0, symName: _emulate_AMX_EXTRY, symObjAddr: 0x64C, symBinAddr: 0x100005388, symSize: 0x5A4 }
+  - { offsetInCU: 0x26, offset: 0x1572, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMA64, symObjAddr: 0x0, symBinAddr: 0x1000059C0, symSize: 0x354 }
+  - { offsetInCU: 0x134, offset: 0x1680, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMA64, symObjAddr: 0x0, symBinAddr: 0x1000059C0, symSize: 0x354 }
+  - { offsetInCU: 0x3D0, offset: 0x191C, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMA32, symObjAddr: 0x3AC, symBinAddr: 0x100005D6C, symSize: 0x2E4 }
+  - { offsetInCU: 0x5EE, offset: 0x1B3A, size: 0x8, addend: 0x0, symName: _load_xy_reg_fma32, symObjAddr: 0x6E8, symBinAddr: 0x1000060A8, symSize: 0x110 }
+  - { offsetInCU: 0x6FA, offset: 0x1C46, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMA16, symObjAddr: 0x7F8, symBinAddr: 0x1000061B8, symSize: 0x3F4 }
+  - { offsetInCU: 0x26, offset: 0x20A2, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMS64, symObjAddr: 0x0, symBinAddr: 0x100006620, symSize: 0x34C }
+  - { offsetInCU: 0x134, offset: 0x21B0, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMS64, symObjAddr: 0x0, symBinAddr: 0x100006620, symSize: 0x34C }
+  - { offsetInCU: 0x3D0, offset: 0x244C, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMS32, symObjAddr: 0x3A4, symBinAddr: 0x1000069C4, symSize: 0x2D4 }
+  - { offsetInCU: 0x5EE, offset: 0x266A, size: 0x8, addend: 0x0, symName: _load_xy_reg_fms32, symObjAddr: 0x6D0, symBinAddr: 0x100006CF0, symSize: 0x1B0 }
+  - { offsetInCU: 0x6FA, offset: 0x2776, size: 0x8, addend: 0x0, symName: _emulate_AMX_FMS16, symObjAddr: 0x880, symBinAddr: 0x100006EA0, symSize: 0x408 }
+  - { offsetInCU: 0x26, offset: 0x2BF4, size: 0x8, addend: 0x0, symName: _load_xy_reg_indexed, symObjAddr: 0x0, symBinAddr: 0x10000731C, symSize: 0x22C }
+  - { offsetInCU: 0x54, offset: 0x2C22, size: 0x8, addend: 0x0, symName: _load_xy_reg_indexed, symObjAddr: 0x0, symBinAddr: 0x10000731C, symSize: 0x22C }
+  - { offsetInCU: 0x491, offset: 0x305F, size: 0x8, addend: 0x0, symName: _emulate_AMX_GENLUT, symObjAddr: 0x22C, symBinAddr: 0x100007548, symSize: 0x1180 }
+  - { offsetInCU: 0x26, offset: 0x341A, size: 0x8, addend: 0x0, symName: _emulate_AMX_MAC16, symObjAddr: 0x0, symBinAddr: 0x1000086C8, symSize: 0x384 }
+  - { offsetInCU: 0x15C, offset: 0x3550, size: 0x8, addend: 0x0, symName: _emulate_AMX_MAC16, symObjAddr: 0x0, symBinAddr: 0x1000086C8, symSize: 0x384 }
+  - { offsetInCU: 0x26, offset: 0x39DC, size: 0x8, addend: 0x0, symName: _emulate_AMX_MATFP, symObjAddr: 0x0, symBinAddr: 0x100008A4C, symSize: 0xA14 }
+  - { offsetInCU: 0x165, offset: 0x3B1B, size: 0x8, addend: 0x0, symName: _emulate_AMX_MATFP, symObjAddr: 0x0, symBinAddr: 0x100008A4C, symSize: 0xA14 }
+  - { offsetInCU: 0x26, offset: 0x4337, size: 0x8, addend: 0x0, symName: _emulate_AMX_MATINT, symObjAddr: 0x0, symBinAddr: 0x100009460, symSize: 0x934 }
+  - { offsetInCU: 0x1DA, offset: 0x44EB, size: 0x8, addend: 0x0, symName: _emulate_AMX_MATINT, symObjAddr: 0x0, symBinAddr: 0x100009460, symSize: 0x934 }
+  - { offsetInCU: 0x26, offset: 0x4D0F, size: 0x8, addend: 0x0, symName: _bf16_to_f32, symObjAddr: 0x0, symBinAddr: 0x100009D94, symSize: 0x20 }
+  - { offsetInCU: 0x7F, offset: 0x4D68, size: 0x8, addend: 0x0, symName: _bf16_to_f32, symObjAddr: 0x0, symBinAddr: 0x100009D94, symSize: 0x20 }
+  - { offsetInCU: 0xA5, offset: 0x4D8E, size: 0x8, addend: 0x0, symName: _bf16_fma, symObjAddr: 0x20, symBinAddr: 0x100009DB4, symSize: 0x294 }
+  - { offsetInCU: 0x2F1, offset: 0x4FDA, size: 0x8, addend: 0x0, symName: _vecfp_alu_bf16, symObjAddr: 0x2B4, symBinAddr: 0x10000A048, symSize: 0xD8 }
+  - { offsetInCU: 0x3E5, offset: 0x50CE, size: 0x8, addend: 0x0, symName: _vecfp_alu16, symObjAddr: 0x38C, symBinAddr: 0x10000A120, symSize: 0x70 }
+  - { offsetInCU: 0x41A, offset: 0x5103, size: 0x8, addend: 0x0, symName: _vecfp_alu32, symObjAddr: 0x430, symBinAddr: 0x10000A1C4, symSize: 0x70 }
+  - { offsetInCU: 0x44F, offset: 0x5138, size: 0x8, addend: 0x0, symName: _vecfp_alu64, symObjAddr: 0x4D4, symBinAddr: 0x10000A268, symSize: 0x70 }
+  - { offsetInCU: 0x666, offset: 0x534F, size: 0x8, addend: 0x0, symName: _emulate_AMX_VECFP, symObjAddr: 0x578, symBinAddr: 0x10000A30C, symSize: 0xADC }
+  - { offsetInCU: 0x26, offset: 0x5ADF, size: 0x8, addend: 0x0, symName: _vecint_alu_mode4, symObjAddr: 0x0, symBinAddr: 0x10000AF0C, symSize: 0x78 }
+  - { offsetInCU: 0x66, offset: 0x5B1F, size: 0x8, addend: 0x0, symName: _vecint_alu_mode4, symObjAddr: 0x0, symBinAddr: 0x10000AF0C, symSize: 0x78 }
+  - { offsetInCU: 0xCA, offset: 0x5B83, size: 0x8, addend: 0x0, symName: _vecint_alu, symObjAddr: 0x78, symBinAddr: 0x10000AF84, symSize: 0xCC }
+  - { offsetInCU: 0x32B, offset: 0x5DE4, size: 0x8, addend: 0x0, symName: _emulate_AMX_VECINT, symObjAddr: 0x144, symBinAddr: 0x10000B050, symSize: 0xC64 }
+...
